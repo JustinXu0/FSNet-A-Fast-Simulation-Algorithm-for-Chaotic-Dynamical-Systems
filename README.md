@@ -68,7 +68,7 @@ When visualizing the motion trajectory, our method predicts a more stable path
       title={A Fast Simulation Algorithm for Chaotic Dynamical Systems}, 
       author={Yuanfeng Xu},
       year={2023},
-      eprint={2303.05620},
+      eprint={https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
