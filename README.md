@@ -1,8 +1,11 @@
-# A Fast Simulation Algorithm for Chaotic Dynamical Systems
+# FSNet: A Fast Simulation Algorithm for Chaotic Dynamical Systems
 ## 1. Introction
 It is an instruction manual for my graduation project. Following the same settings as NeurVec, this method demonstrates excellent performance on the datasets, including Elastic Pend, Klink, Spring Chain.
 
-Conventional piecewise linear activation function, such as ReLU, cannot guarantee the existence of Lipschitz smoothness in the defined domain of the network, which leads to poor simulation performance in the simulation of chaotic systems. 
+Conventional piecewise linear activation function, such as ReLU in the following figure, cannot guarantee the existence of Lipschitz smoothness in the defined domain of the network, which leads to poor simulation performance in the simulation of chaotic systems. The following figure shows the performance of many conventional activation functions on Elastic Pend.
+![image](https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems/assets/59130750/0e34745b-069f-48cb-ad2f-c29d025a445d)
+
+We found that performance of these activation functions are much lower than that of NeurVec, which meet the Lipschitz smoothness condition.
 
 Observing that the exponential operation contained in the rational used by NeuroVec affects running speed of the model, we replace rational with an activation function that satisfies the Lipschitz smoothness.
 
@@ -47,29 +50,28 @@ Compared with NeuroVec, our method has improved simulation accuracy by **2 order
 
 ### 3.2 Speed of Convergence
 
-When using only 25% of the original method's data, the convergence speed is 4 times faster.
+When using only 25% of the original method's data, the convergence speed is **4 times faster**.
 
 ![image](https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems/assets/59130750/85f88839-61f2-41ca-9e3a-2096602571a5)
 
 ### 3.3 Speed of Inference
 
-Compared to NeuroVec, the inference speed is 22% faster, which is 150 times faster than traditional methods.
+Compared to NeuroVec, the inference speed is **22% faster**, which is **150 times faster** than traditional methods.
 
 ![image](https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems/assets/59130750/a3a96d3a-98b7-422e-84b7-28177a496ad2)
 
 ### 3.4 Stability of Trajectory
 
-When visualizing the motion trajectory, our method predicts a more stable path
+When visualizing the motion trajectory, our method predicts a **more stable path**.
 ![image](https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems/assets/59130750/9abad1ca-3c0b-40db-a514-d3119e1bbe29)
 
 ## Citation
 ```
 @article{small-whirlwind,
-      title={A Fast Simulation Algorithm for Chaotic Dynamical Systems}, 
-      author={Yuanfeng Xu},
+      title={FSNet: A Fast Simulation Algorithm for Chaotic Dynamical Systems}, 
+      author={Yuanfeng Xu, Shenglan Liu},
       year={2023},
-      eprint={https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems},
-      archivePrefix={arXiv},
+      url={https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems},
       primaryClass={cs.CV}
 }
 ```
