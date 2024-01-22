@@ -1,4 +1,4 @@
-# A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems
+# A Fast Simulation Algorithm for Chaotic Dynamical Systems
 ## 1. Introction
 It is an instruction manual for my graduation project. Following the same settings as NeurVec, this method demonstrates excellent performance on the datasets, including Elastic Pend, Klink, Spring Chain.
 
@@ -62,4 +62,14 @@ Compared to NeuroVec, the inference speed is 22% faster, which is 150 times fast
 When visualizing the motion trajectory, our method predicts a more stable path
 ![image](https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems/assets/59130750/9abad1ca-3c0b-40db-a514-d3119e1bbe29)
 
+## Citation
 
+@article{small-whirlwind,
+      title={A Fast Simulation Algorithm for Chaotic Dynamical Systems}, 
+      author={Yuanfeng Xu},
+      year={2023},
+      
+      eprint={2303.05620},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
