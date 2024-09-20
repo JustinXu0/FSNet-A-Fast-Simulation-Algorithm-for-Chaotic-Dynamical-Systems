@@ -67,11 +67,11 @@ When visualizing the motion trajectory, our method predicts a **more stable path
 
 ## Citation
 ```
-@article{small-whirlwind,
+@article{JustinXu0,
       title={FSNet: A Fast Simulation Algorithm for Chaotic Dynamical Systems}, 
       author={Yuanfeng Xu, Shenglan Liu},
       year={2023},
-      url={https://github.com/small-whirlwind/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems},
+      url={https://github.com/JustinXu0/A-Fast-Simulation-Algorithm-for-Chaotic-Dynamical-Systems},
       primaryClass={cs.CV}
 }
 ```
